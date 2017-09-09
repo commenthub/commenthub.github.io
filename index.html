@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CommentHub Example</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<script type="text/javascript">
+    var commenthub_id = '30453178';
+    var commenthub_website = "https://commenthub.github.com";
+    var commenthub_identifier = 'https://commenthub.github.com/index.html';
+    var commenthub_url = 'https://commenthub.github.com/index.html';
+    var commenthub_title = 'CommentHub Example';
+    var commenthub_script = "embed.js";
+    (function () {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = 'https://commenthub.herokuapp.com/js/' + commenthub_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+<div id="commenthub_thread"
+     style="margin: 0;padding: 0;border: 0;font: inherit;font-size: 100%;vertical-align: baseline;"></div>
+</body>
+</html>
